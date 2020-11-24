@@ -17,6 +17,7 @@ h1 {
 .btn {
     font-weight: 300;
     border-radius: 100px;
+    text-transform: uppercase;
     
 }
 
@@ -24,7 +25,8 @@ h1 {
     background-color: #F05F44;
     border-color: #F05F44;
 }
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-primary:active {
     background-color: #ee4b08;
     border-color: #ee4b08;
 }
@@ -39,5 +41,18 @@ hr {
 }
 
 .buffer {
-    height: 15rem;
+    height: 10rem;
+}
+.container {
+    height: 100vh;
+}
+
+
+footer {
+    color: white;
+    height: 40px;
+    background-color: #696986;
+    padding: 10px 0 0 0;
+    font-size: 80%;
+    text-align: center;
 }
